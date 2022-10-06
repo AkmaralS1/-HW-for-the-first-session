@@ -3,6 +3,6 @@ Console.Clear();
 Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 2; i <= n; i+=2) // в for указываются начальное значение, условие и шаг
+for (int i = 2; i <= n; i+=2) // в for указываются начальное значение, условие и шаг. i+=2 проверяет на четность
     Console.Write(i + " ");
  
